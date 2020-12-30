@@ -1,20 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
 body {
   /* المطلوب الأول هنا */
+  font-family:cairo;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+
   text-align: center;
-  background-size: cover;
+  background-image: url(./img/KuwaitCodesWallpaper.png);
+   background-size: cover;
 }
 
 /* المطلوب الثاني هنا */
 nav {
+  display:flex;
+  justify-content:center ;
+ 
 }
 .nav-elements {
+  display: flex;
+  justify-content:space-around ;
+   width:180px;
 }
 
 .card {
   /* المطلوب الثالث هنا */
-  width: 400px;
+   width: 400px;
   height: 500px;
   background-color: white;
+  box-shadow: 5px 10px 18px black;
+  border-radius :12px;
+  
 }
 
 img {
@@ -22,10 +39,20 @@ img {
   width: 120px;
   height: 120px;
   margin-top: 20px;
+  border-radius:50% ;
+  box-shadow: 20px 20px 18px darkgrey
+  
 }
 
 .hobbies {
   /* المطلوب السادس هنا */
+  display: grid;
+  grid-template-columns:auto auto auto ;
+  justify-content: space-between;
+ 
+
+
+
 }
 
 .center {
